@@ -88,6 +88,13 @@
 
       <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
         <div class="contact-heading reveal"><p class="eyebrow">Let’s connect</p><h2 id="contact-title">Ready to work<br /><em>together?</em></h2><p>For inquiries and opportunities, email or message me directly:</p><a class="contact-email" href="mailto:angelouburdeos@gmail.com">angelouburdeos@gmail.com</a><a class="contact-phone" href="https://wa.me/639108741237" target="_blank" rel="noreferrer">WhatsApp: 0910 874 1237</a></div>
+        <form class="contact-form reveal reveal-delay" id="contact-form">
+          <label><span>Your name</span><input type="text" name="name" placeholder="Your name" required /></label>
+          <label><span>Email address</span><input type="email" name="email" placeholder="you@example.com" required /></label>
+          <label><span>How can I help?</span><textarea name="message" rows="4" placeholder="Tell me a little about what you need..." required></textarea></label>
+          <button class="button button-dark" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
       </section>
 
     </main>
